@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* 공통 */
+section.inner{max-width: 900px; margin-bottom: 150px;}
+section{padding-top: 150px; color:#111; line-height: 1.8;}
+section .title{
+    font-size: 30px;
+    font-weight: 800;
+    color:#111;
+    padding-bottom: 20px; box-sizing: border-box;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #111;
+}
+section .text{margin: 0;}
+
+/* list 공통 */
+.list_area > li{margin-bottom: 30px;}
+.list area > li .list_title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+section .text, .list_area > li tr, .list_area > li > ul li{font-weight: 300;}
+.list_area > li th{font-weight: 600;}
+.list_area > li table{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+.list_area > li table.table_01 th:nth-child(1){width: 30%;}
+.list_area > li table.table_01 th:nth-child(2){width: 20%;}
+.list_area > li table.table_01 th:nth-child(3){width: 50%;}
+.list_area > li table, .list_area > li .list_dot, .list_area > li .list_num, .list_area > li .list_num2{margin: 10px 0;}
+.list_area > li table, .list_area > li table td, .list_area > li table th{
+    border: 1px solid #eee;
+    border-collapse: collapse;
+}
+.list_area > li table td{padding: 10px 0; box-sizing: border-box;}
+.list_area > li table th{
+    background: #f5f5f5;
+    padding: 15px 0; box-sizing: border-box;
+}
+.list_area > li .list_dot > li{
+    position: relative;
+    padding-left: 10px; box-sizing: border-box;
+}
+.list_area > li .list_dot > li::before{
+    content: '';
+    position: absolute;
+    top: 50%; left: 0;
+    transform: translateY(-50%);
+    width: 2px; height: 2px;
+    background: #111;
+    border-radius: 50%;
+}
+.list_area > li .list_num2 .num_title{font-weight: bold;}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTY | 아스티</title>
+
+    <link rel="stylesheet" href="css/common/reset.css">
+    <link rel="stylesheet" href="css/common/common.css">
+    <link rel="stylesheet" href="css/m_css/m_common.css" media="screen and (max-width:1090px)">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/m_css/m_signup.css" media="screen and (max-width:1090px)">
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <a href="#" class="btn_mobile m_hide"><img src="img/icon/m_menu_icon.png" alt=""></a>
+
+            <a href="index.html" class="logo"><h1><span class="blind">ASTY로고</span></h1></a>
+
+            <nav class="gnb_area p_hide">
+                <ul class="gnb">
+                    <li><a href="asty.html">아스티</a></li>
+                    <li><a href="business.html">사업개요</a></li>
+                    <li><a href="premium.html">프리미엄</a></li>
+                    <li><a href="location.html">입지환경</a></li>
+                    <li><a href="special.html">특화시설</a></li>
+                    <li><a href="generation.html">세대정보</a></li>
+                    <li><a href="signup.html">관심고객등록</a></li>
+                </ul>
+            </nav>
+            <div class="m_gnb_bg"></div>
+            <nav class="gnb_area m_hide">
+                <a href="#" class="logo m_hide"><img src="img/logo/logo.png" alt=""></a>
+                <a href="#" class="close m_hide"><img src="img/icon/m_close_icon.png" alt=""></a>
+                <ul class="gnb">
+                    <li><a href="asty.html">아스티</a></li>
+                    <li><a href="business.html">사업개요</a></li>
+                    <li><a href="premium.html">프리미엄</a></li>
+                    <li><a href="location.html">입지환경</a></li>
+                    <li><a href="special.html">특화시설</a></li>
+                    <li><a href="generation.html">세대정보</a></li>
+                    <li><a href="signup.html">관심고객등록</a></li>
+                </ul>
+            </nav>
+        
+
+            <a href="#" class="call_btn"><i class="fa-solid fa-phone"></i> <span class="call_num">1544-5055</span></a>
+        </header>
+
+        <div class="form_check">
+            <div class="form_alert">
+                <a href="#" class="check_close">&times;</a>
+                <p class="form_title">문의 확인</p>
+                <div class="check_area">
+                    <p>이름: <span class="nameCheck"></span></p><br>
+                    <p>전화번호: <span class="callCheck"></span></p><br>
+                    <p>문의 내용: <span class="eqCheck"></span></p><br>
+                </div>
+                <p class="Fcheck">위 내용을 문의하시겠습니까?</p>
+
+                <button type="submit" class="Ycheck">예</button>
+                <button type="reset" class="Ncheck">취소</button>
+            </div>
+        </div>
+
+        <section class="inner">
+            
+            <div class="title_area">
+                <span class="t_title">관심고객등록</span>
+                <h3 class="title">CONTACT US</h3>
+            </div>
+
+            <div class="form_area">
+                <form>
+                    <fieldset>
+                        <div class="input_area">
+                            <div class="input_01">
+                                <label for="username">성함</label>
+                                <input type="text" id="username" placeholder="성함" autocomplete="off">
+                            </div>
+                            <div class="input_02">
+                                <label for="usercall">전화번호</label>
+                                <input type="tel" id="usercall" placeholder="전화번호를 입력해 주세요">
+                            </div>
+                        </div>
+                        <div class="input_03">
+                            <label for="userep">문의내용</label>
+                            <textarea id="userep" placeholder="문의내용을 입력해주세요"></textarea>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <div class="text_area">
+                    <strong>개인정보 수집 및 이용에 대한 안내</strong>
+                    <ul>
+                        <li>ASTY는 아래와 같이 개인정보를 수집하고 있습니다.</li>
+                        <li>1. 수집 개인정보 항목 : (필수) 성함, 전화번호</li>
+                        <li>2. 개인정보의 수집 및 이용목적 : 처리결과 회신 등 원활한 의사소통 경로 확보</li>
+                        <li>3. 개인정보의 이용기간 : 개인정보 수집 및 이용목적 달성 후, 해당 개인정보를 지체없이 파기합니다.</li>
+                        <li>그 밖의 사항은 개인정보처리방침을 준수합니다.</li>
+                        <li>귀하는 ASTY 홈페이지 이용에 필요한 최소한의 개인정보 수집, 이용에 동의하지 않을 권리가 있으며, 동의 거부 시 거부한 내용에 대해 서비스가 제한됩니다.</li>
+                    </ul>
+                </div>
+
+                <p><input type="checkbox" id="check">개인정보 수집 및 이용에 동의합니다</p>
+
+                <div class="btn_area"><button id="btnPass" type="submit">보내기</button></div>
+            </div>
+        </section>
+            
+        <footer>
+            <a href="policy.html">개인정보 취급방침</a>
+
+            <div class="copy">
+                <p><span>수탁 : 신한자산신탁(주)</span><span>시공 : 롯데건설</span></p>
+                <p><span>위탁(시행) : (주)오버나인에이치에스</span> <span>대표이사 : 최창권</span> <span>등록번호 : 529-88-01702</span></p>
+                <p><span>온라인대행 : (주)리얼투데이</span> <span>서울특별시 강남구 언주로650, 9층(논현동,한국건설기술인협회 신관)</span> <span>대표이사 : 김운철</span> <span>등록번호 : 214-88-75980</span></p>
+                <p class="copyright">COPYRIGHT&copy; 2021 ASTY ALL RIGHTS RESERVED.</p>
+            </div>
+
+            <img src="img/logo/logo_02.png" alt="">
+        </footer>
+    </div>
+
+    <script src="js/signup.js"></script>
+</body>
+</html>
