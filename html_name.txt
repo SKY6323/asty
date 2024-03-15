@@ -1,9 +1,0 @@
-index.html: 메인
-asty.html: 아스티
-business.html: 사업개요
-premium.html: 프리미엄
-location.html: 입지환경
-special.html: 특화 시설
-generation.html: 세대정보
-signup.html: 관심고객등록
-policy.html: 개인정보처리방침
