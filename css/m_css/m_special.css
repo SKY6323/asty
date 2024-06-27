@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* 1090이하 */
+.main_bg{height: 65vh;}
+section .title{font-size: 50px;}
+
+
+/* 900이하 */
+@media screen and (max-width:900px) {
+    .main_bg{height: 55vh;}
+
+    .life_list{margin-bottom: 80px;}
+    .lifestyle .t_title{margin-bottom: 50px;}
+}
+
+/* 769이하 */
+@media screen and (max-width:769px) {
+    .main_bg{height: 45vh;}
+    .life_list{margin-bottom: 50px;}
+}
+
+/* 500이하 */
+@media screen and (max-width:500px) {
+    .main_bg{height: 35vh; margin-bottom: 100px;}
+
+    .life_list figure{margin-bottom: 40px;}
+    .lifestyle {text-align: left;}
+    .lifestyle .t_title{margin-bottom: 20px;}
+    .lifestyle .title{margin-bottom: 150px; font-size: 27px; margin-bottom: 70px;}
+    .life_list .list_title{height: 60px; margin-bottom: 30px;}
+
+    .life_list .text{font-size: 14px;}
+    .list_01 > .list_title,
+    .list_02 > .list_title,
+    .list_03 > .list_title,
+    .list_04 > .list_title,
+    .list_07 > .list_title{float: none;}
+    
+    .list_01 > .text_box,
+    .list_03 > .text_box,
+    .list_04 > .text_box,
+    .list_07 > .text_box{float: none; width: 100%;}
+    .list_02 > .text_box, .list_area .life_list{width: 100%;}
+    .list_area{display: block;}
+    .list_area .life_list{margin-bottom: 80px;}
+}

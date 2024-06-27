@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+section.inner{border-top: 1px solid transparent;}
+
+/* title_area */
+.title_area{
+    margin: 200px 0 150px;
+    text-align: center;
+}
+.title_area .t_title{margin-bottom: 50px;}
+.title_area .title{
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+/* form */
+.form_area{max-width: 1000px; margin: 0 auto;}
+form{margin-bottom: 15px;}
+fieldset{border: none; width: 100%;}
+fieldset > .input_area{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+fieldset > div input, fieldset > .input_03 >textarea{
+    border: none;
+    width: 100%;
+    height: 50px;
+    background: #f5f5f5;
+    padding: 10px; box-sizing: border-box;
+    margin-bottom: 10px;
+    font-family: "Noto Sans KR", serif;
+    font-size: 16px;
+}
+fieldset > div input:focus, fieldset > .input_03 >textarea:focus{outline: 2px solid #333;}
+input::placeholder, textarea::placeholder{
+    font-size: 15px;
+    color: rgba(0,0,0,0.4);
+}
+fieldset > .input_area .input_01{
+    float: left;
+    padding: 0 2px; box-sizing: border-box;
+}
+fieldset > .input_area .input_02{
+    float: right; padding: 0 2px;
+    box-sizing: border-box;
+}
+fieldset > .input_area > div{width: 49%;}
+fieldset > .input_03{width: 100%;}
+fieldset > .input_03 >textarea{
+    width:100%; height: 100px;
+    resize: none;
+    overflow: hidden;
+}
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    position: relative;
+    font-size: 17px;
+    font-weight: 500;
+}
+label::after{
+    content: '';
+    position: absolute;
+    top: 50%; right: -8px;
+    transform: translateY(-50%);
+    width: 2.5px; height: 2.5px;
+    background: #333;
+    border-radius: 50%;
+}
+
+/* text_area */
+.text_area{
+    font-size: 14px;
+    line-height: 1.8;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.text_area > ul li{
+    font-weight: 300;
+}
+
+/* checkbox */
+.form_area > p{
+    text-align: center;
+    margin: 20px 0 50px;
+}
+.form_area > p >input{
+    width: 13px; height: 13px;
+    margin-right: 5px;
+}
+
+/* button */
+.btn_area {text-align: center; margin-bottom: 150px;}
+.btn_area > button{
+    display: inline-block;
+    width: 300px;
+    padding: 20px 0; box-sizing: border-box;
+    background: #000;
+    border: none;
+    color:#fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* form_check */
+.form_check{
+    position: fixed;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.form_check.on{display: flex;}
+.form_check > .form_alert{
+    background: #fff;
+    width: 35vw;
+    padding: 70px 60px 50px; box-sizing: border-box;
+    text-align: center;
+    border-radius: 1px;
+    position: relative;
+}
+.form_alert .check_close{
+    position: absolute;
+    top: 0; right: 20px;
+    font-size: 50px;
+    font-weight: 100;
+    color:#111;
+}
+.form_alert .form_title{
+    font-size: 30px;
+    font-weight: 600;
+    color:#000;
+    margin-bottom: 30px;
+}
+.form_alert .check_area{
+    text-align: left;
+    font-size: 17px;
+    line-height: normal;
+    padding-top: 35px;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
+    margin-bottom: 30px;
+}
+.check_area > p {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.check_area > p > span{
+    margin-left: 5px;
+    color: #111;
+    display: inline-block;
+}
+.form_alert .Fcheck{
+    font-size: 18px;
+    color:#000;
+    margin-bottom: 40px;
+}
+.form_alert > button{
+    font-size: 17px;
+    width: 100px; height: 40px;
+    border: 1px solid transparent;
+    background: #111;
+    font-weight: 500;
+    color:#fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.form_alert > button.Ycheck{margin-right: 5px;}
+.form_alert > button.Ycheck:hover{background: #f5f5f5; color: #111;}
+.form_alert > button.Ncheck{background: #f5f5f5; color: #111;}

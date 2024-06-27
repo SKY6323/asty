@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.form_check > .form_alert{width: 60vw;}
+
+/* 900이하 */
+@media screen and (max-width:900px) {
+    .title_area .title{font-size: 50px;}
+}
+
+/* 769이하 */
+@media screen and (max-width:769px) {
+    input::placeholder, fieldset > div input, label{font-size: 14px;}
+    .form_check > .form_alert{
+        width: 70vw;
+        padding: 50px 60px 30px;
+    }
+    .form_alert .form_title{font-size: 24px;}
+    .form_alert .check_area{font-size: 15px;}
+    .form_alert .Fcheck, .form_alert > button{font-size: 16px;}
+    .form_alert > button{width: 48%; height: 50px;}
+    
+}
+
+/* 500이하 */
+@media screen and (max-width:500px) {
+    .title_area{
+        margin: 100px 0 50px;
+        text-align: left;
+    }
+    .title_area .t_title{margin-bottom: 20px;}
+    .title_area .title{font-size: 30px;}
+
+    fieldset > .input_area{margin: 0;}
+    fieldset > div input{margin-bottom: 30px;}
+    fieldset > .input_area > div{width: 100%;}
+    fieldset > div input, fieldset > .input_03 > textarea{height: 40px;}
+
+    .btn_area{margin-bottom: 50px;}
+    .btn_area > button{width: 100%;}
+
+    .form_check > .form_alert{
+        width: 80vw;
+        padding: 50px 40px 30px;
+    }
+    .form_alert .Fcheck{margin-bottom: 30px;}
+}

@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* 1090이하 */
+
+/* main_bg */
+.main_bg .main_bg01{
+    width: 5vw;
+    position: absolute;
+    top: 30%; left: 10%;
+    margin: 0;
+}
+.main_bg .main_bg02{
+    width: 6vw;
+    position: absolute;
+    top: 20%; right: 15%; left: auto;
+    margin: 0;
+}
+.main_bg .main_bg03{
+    width: 35vw;
+    position: absolute;
+    right: auto; left: 50px;
+    margin: 0;
+}
+.main_bg .main_bg04{
+    width: 12vw;
+    position: absolute;
+    left: auto; right: 50px;
+    margin-left: 0;
+}
+.main_bg > figure{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+/* astygird */
+.astygrid > .astyg_tbox .title{width: 40%;}
+.astygrid > .astyg_tbox .astyg_right{width: 60%;}
+
+
+/* 900이하 */
+@media screen and (max-width:900px) {
+    /* main_bg */
+    .main_bg{width: 100%;}
+
+    /* astyis */
+    .astyis{padding: 140px 0 0;}
+    .astyis .inner .astyis_text{margin-bottom: 140px;}
+    .astyis .inner .astyis_text h2{
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    .astyis .inner .astyis_text .text{font-size: 16px;}
+
+    /* section - astyis - astyis_slide */
+    .astyis_slide{height: 60vh;}
+    .astyis_slide .bg{height: 60vh;}
+
+    /* astygrid */
+    .astygrid > .astyg_tbox .title{width: 50%;}
+
+    /* type_area */
+    .type_area .type_img{flex-direction: column; height: 100%;}
+    .type_img > li{
+        width: 100%; height: 52vh;
+        border: none;
+        background: no-repeat center/cover;
+    }
+    .type_img > li:hover{border: none;}
+    .type_img > li+li{border: none;}
+    .type_img > li > figure{display: none;}
+    .type_img > li.timg_01{background-image: url(../../img/index/room_01.jpg);}
+    .type_img > li.timg_02{background-image: url(../../img/index/room_02.jpg);}
+    .type_img > li.timg_03{background-image: url(../../img/index/room_03.jpg);}
+
+    /* astylast */
+    .astylast .primer, .astylast .primer{width: 47.5%;}
+    .primer .text{margin-bottom: 2.33em;/* 35px */}
+}
+
+/* 769이하 */
+@media screen and (max-width:769px) {
+    /* main_bg */
+    .main_bg > figure{width: 300px;}
+
+    /* astygird */
+    .astygrid > .astyg_tbox{flex-direction: column;}
+    .astygrid > .astyg_tbox .title{width: 100%;}
+    .astygrid > .astyg_tbox .astyg_right{width: 100%;}
+
+    /* place_area */
+    .place_area figure img{height: 150px;}
+}
+
+/* 500이하 */
+@media screen and (max-width:500px) {
+    /* main_bg */
+    .main_bg > figure{width: 200px;}
+    .main_bg .main_bg01{width: 10vw; left: 15%; top: 24%;}
+    .main_bg .main_bg02{width: 13vw; right: 10%; top: 14%;}
+    .main_bg .main_bg03{width: 40vw; bottom: 20%; left: 5%;}
+    .main_bg .main_bg04{width: 20vw;}
+
+    /* astyis */
+    .astyis{padding: 80px 0 0;}
+    .astyis .inner .astyis_text{margin-bottom: 80px;}
+    .astyis .inner .astyis_text h2{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .astyis .inner .astyis_text .text{font-size: 14px;}
+    
+    /* section - astyis - astyis_slide */
+    .astyis_slide{height: 32vh;}
+    .astyis_slide .bg{height: 32vh;}
+
+    /* astygird */
+    .astygrid > .astyg_tbox{margin-bottom: 6em;/* 90px */}
+
+    /* place_area */
+    .place_area figure img{height: 80px;}
+    .place_area .garden, .place_area .pool, .place_area .parking{margin: 5px 0;}
+    .place_area .pool{margin-left: 30px;}
+    .place_area figure{margin-right: 30px;}
+
+    /* type_area */
+    .type_area .type_text{margin-bottom: 80px;}
+    .type_area .type_text .text{width: 70%; margin: 30px auto; line-height: 1.8;}
+
+    /* type_area */
+    .type_img > li{height: 28vh;}
+    .type_img > li > .text_area{margin: 20px 0 0 20px;}
+    .type_img > li > .text_area > p{font-size: 1.87rem;/* 28px */}
+    .type_img > li > .text_area > p > span{font-size: 1.07rem;/* 16px */}
+
+    /* astylast */
+    .astylast .inner{flex-direction: column; padding: 0 6%;}
+    .astylast .primer{width: 100%; margin-bottom: 45px;}
+    .astylast .primer:last-child{margin: 0;}
+    .primer figure{margin-bottom: 2.33em;/* 35px */}
+    .primer .btn_view{font-size: 0.86rem;/* 12px */}
+}

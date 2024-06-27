@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+section.inner{padding-top: 150px;}
+
+@media screen and (max-width: 500px) {
+    section.inner{margin-bottom: 80px;}
+    html{font-size: 15px;}
+    body{font-size: 15px;}
+    section .title{font-size: 20px;}
+    .list area > li .list_title{font-size: 16px;}
+    section .text, .list_area > li > ul li{font-size: 14px;}
+    .list_area > li table td{
+        font-size: 12px;
+        text-align: left;
+        padding: 10px 10px; box-sizing: border-box;
+    }
+}

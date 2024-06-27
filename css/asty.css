@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* top_bg */
+.top_bg{
+    width: 100%; height: 1080px;
+    background: url(../img/asty/Amain_bg_01.jpg) no-repeat top center;
+}
+
+/* asty_box */
+.asty_box .inner{
+    display: flex;
+    justify-content: space-between;
+}
+.asty_box .title_box{width: 50%;}
+.asty_box .text_box{width: 50%;}
+.asty_box .title_box > span{
+    display: inline-block;
+    font-size: 1.25rem;/* 20px */
+    color:#000;
+}
+
+/* asty_box box_top */
+.asty_box .box_top{margin-top: -130px;}
+
+/* main_video */
+.main_video{margin-bottom: 12.5em;/* 200px */}
+.main_video > video{width: 100%;}
+
+/* bottom_bg */
+.bottom_bg{text-align: center;}
+.bottom_bg > img{max-width: 100%; vertical-align: top;}

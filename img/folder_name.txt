@@ -1,0 +1,12 @@
+logo: 로고
+icon: 아이콘
+video: 비디오
+-----------------------------------
+index: 메인(index.html)
+asty: 아스티(asty.html)
+business: 사업개요(business.html)
+premium: 프리미엄(premium.html)
+location: 입지환경(location.html)
+special: 특화 시설(special.html)
+generation: 세대정보(generation.html)
+signup: 관심고객등록(signup.html)
